@@ -10,39 +10,69 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
+}
+
+p {
+    font-size: 15px;
 }
 
 .wallpaper {
     background-color: var(--cream-color);
     width: 100vw;
     height: 100vh;
-    text-align: center;
     justify-content: center;
     display: flex;
     position: relative;
 }
 
 .card__product {
-    width: 500px;
+    width: 600px;
     position: absolute;
     top: 50%;
     display: flex;
-    margin-top: -150px;
+    margin-top: -225px;
 }
 
 .card__product>* {
     display: inline;
     max-width: 100%;
+    margin: 0;
 
 }
 
 section {
     background-color: white;
-    width: 60%;
+    width: 50%;
     border-radius: 10px;
 }
 
 .card__product>img {
-    width: 40%;
+    width: 50%;
     border-radius: 10px 0 0 10px;
+}
+
+section>p {
+    font-family: "Montserrat";
+    margin: 1em 2rem;
+    color: var(--dark-grayish-blue);
+
+}
+
+section p:nth-child(1) {
+    letter-spacing: 4px;
+}
+
+
+section>h1 {
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--very-dark-blue);
+    line-height: 30px;
+}
+
+section * {
+
+    margin: 0 2rem;
 }
